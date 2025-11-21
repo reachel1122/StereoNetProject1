@@ -1,0 +1,17 @@
+dataset:
+  name: kitti2015
+  root: data            # data/ 应该已软链到你的 KITTI2015 根
+  crop_hw: [256, 512]
+
+model:
+  max_disp: 192
+  feature_ch: 32
+  refine: false
+
+train:
+  epochs: 1
+  batch_size: 2
+  lr: 1.0e-3
+  num_workers: 2
+
+out_dir: runs/kitti_teacher

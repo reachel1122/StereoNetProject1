@@ -1,0 +1,22 @@
+name: stereo
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pytorch
+  - torchvision
+  - torchaudio
+  - numpy
+  - scipy
+  - opencv
+  - matplotlib
+  - tqdm
+  - pyyaml
+  - yacs
+  - tensorboard
+  - onnx
+  - onnxruntime
+  - pip:
+      - onnxsim
+      - rich

@@ -1,0 +1,15 @@
+torch
+torchvision
+torchaudio
+numpy
+scipy
+opencv-python
+matplotlib
+tqdm
+pyyaml
+yacs
+tensorboard
+onnx
+onnxruntime
+onnxsim
+rich
